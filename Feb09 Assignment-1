@@ -1,0 +1,17 @@
+#bigest of 2 numbers
+print('enter a,b')
+a=int(input())
+b=int(input())
+if(a>b):
+    print('a is big')
+
+if(b>a):
+    print('b is big')
+
+else:
+     print('a=b')
+
+Output:enter a,b
+12
+12
+a=b
