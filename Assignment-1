@@ -1,0 +1,20 @@
+#working on comparision operators
+print('enter 2 numbers')
+a=int(input())
+b=int(input())
+print (a<b)
+print (a>b)
+print (a<=b)
+print (a>=b)
+print (a==b)
+print (a!=b)
+
+Output:enter 2 numbers
+4
+4
+False
+False
+True
+True
+True
+False
