@@ -1,0 +1,8 @@
+# converting km to cm
+print('enter the km:')
+a=int(input())
+a*=10**5
+print('in cm:', a)
+
+Output:enter the km:2
+in cm: 200000
