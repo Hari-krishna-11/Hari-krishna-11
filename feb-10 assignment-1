@@ -1,0 +1,25 @@
+#Write a program to print result of given student
+sno=int(input('enter student no:'))
+sname=(input('enter student name:'))
+sgroup=(input('groupenter student: '))
+s1=int(input('maths marks:'))
+s2=int(input('phy marks:'))
+s3=int(input('cs marks:'))
+s4=int(input('telugu marks'))
+s5=int(input('english marks'))
+s6=int(input('analytikalskills marks'))
+if s1>34 & s2>34 & s3>34 & s4>34 & s5>34 & s6>17:
+    print('pass')
+else:
+    print('fail')
+    
+    output:enter student no:1
+enter student name:hari
+groupenter student: mpcs
+maths marks:37
+phy marks:60
+cs marks:70
+telugu marks56
+english marks32
+analytikalskills marks40
+fail
