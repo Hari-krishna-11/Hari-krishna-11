@@ -1,0 +1,8 @@
+if__name__='__main__':
+a=int(raw-input())
+b=int(raw-input())
+a=int(input())
+b=int(input())
+print(a+b)
+print(a-b)
+print(a*b)
