@@ -1,0 +1,7 @@
+if __name__ = '_ _main_ _':
+n= int(raw_input())
+n=int(input('enter a number'))
+i=0
+while i<n:
+    print(i**2)
+    i=i+1
