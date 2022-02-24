@@ -1,0 +1,5 @@
+def Reverse(l):
+    l.reverse()
+    return lst
+l = [10, 11, 12, 13, 14, 15]
+print(Reverse(l))
