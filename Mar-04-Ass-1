@@ -1,0 +1,19 @@
+l=[]
+n=int(input('enter no.of elements: '))
+for i in range(n):
+    x=int(input())
+    l.append(x)
+print(l)
+p=[]
+count=0
+for i in range(n):
+    y=l[i]
+    for j in range(i+1,n):
+        z=l[j]
+        if y==z:
+            p.append(z)
+res=[]
+for i in p:
+    if i not in res:
+        res.append(i)
+print("Number of duplicate numbers: ",len(res))
